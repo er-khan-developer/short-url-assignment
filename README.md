@@ -21,7 +21,7 @@ A multi-tenant URL shortener built with Laravel, Vue 3, Inertia.js, and TypeScri
 | Data tables | DataTables.net with Vue 3 integration |
 | HTTP | Axios |
 | Notifications | Vue Sonner |
-| Database | SQLite (default), MySQL supported |
+| Database | MySql (default), sqllite supported |
 
 ### Business Rules
 
