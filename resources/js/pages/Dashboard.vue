@@ -250,7 +250,7 @@ onUnmounted(() => {
 
 <template>
     <div class="p-6">
-        <h1 class="text-xl font-bold mb-4">Dashboard <p> You are default Login as role <span class="text-blue-600">{{ auth.role }}</span> of Company <span class="text-blue-600">{{ auth.owned_company.name }}</span></p></h1>
+        <h1 class="text-xl font-bold mb-4">Dashboard <p> You are default Login as role <span class="text-blue-600">{{ auth.role }}</span>  <span  v-if="auth.owned_company" class="text-blue-600"> of Company {{ auth.owned_company?.name }}</span></p></h1>
 
         <div class="flex justify-between items-center mb-4">
             <h2 class="text-2xl font-bold">Companies</h2>
