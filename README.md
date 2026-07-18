@@ -3,6 +3,8 @@
 ## Project Overview
 This is a URL Shortener assignment built with Laravel 12, Vue 3, Inertia.js, and TypeScript. The application allows users to invite Admin and Member users to a company and generate short URLs based on predefined business rules. Authentication and role-based authorization are implemented using a custom role field without relying on any external role or permission package.
 
+## note: I used AI tools to assist with debugging, installing packages (such as DataTables and Toast notifications), and creating the README.md file
+
 ## Features
 - **Company Management**: Create and manage companies
 - **Role-Based Access**: SuperAdmin, Admin, and Member roles
